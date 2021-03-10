@@ -3,6 +3,7 @@ package com.sunbae.recyclerview_test
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
+import android.widget.Toast
 import androidx.recyclerview.widget.RecyclerView
 import com.squareup.picasso.Picasso
 import kotlinx.android.synthetic.main.item_superhero.view.*
@@ -31,6 +32,7 @@ class HeroAdapter(val superHero:List<SuperHero>):RecyclerView.Adapter<HeroAdapte
             view.tvSuperHeroName.text = superhero.superHeroName
             view.tvPublisher.text = superhero.publisher
             Picasso.get().load(superhero.image).into(view.ivHero)
+            view.setOnClickListener{ Toast.makeText(view.context, "Has Selected a  ${superhero.superHeroName}", Toast.LENGTH_SHORT).show()}
         }
     }
 
