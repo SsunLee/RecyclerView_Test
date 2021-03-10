@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "715634690891",
+    "project_id": "recyclerview-test-d0185",
+    "storage_bucket": "recyclerview-test-d0185.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:715634690891:android:3a431e8567a77ba14cb6ce",
+        "android_client_info": {
+          "package_name": "com.sunbae.recyclerview_test"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "715634690891-skdiqjt18s82f0gg9u095cj76t7c94rm.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBOmXgJ38CGk8NsvGFHXSd90_eN5eXooPI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "715634690891-skdiqjt18s82f0gg9u095cj76t7c94rm.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
